@@ -1,5 +1,3 @@
-source ./log.fish
-
 function _dependency_installed --argument-names dependency
     command --query $dependency
 end
